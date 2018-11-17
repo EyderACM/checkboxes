@@ -25,6 +25,11 @@ input {
 	margin: 20px;
 }
 
+input:checked + p {
+      background: #F9F9F9;
+      text-decoration: line-through;
+}
+
 .head {
 	background: #ff3030;
 	text-transform: uppercase;
@@ -44,4 +49,6 @@ input {
       font-size: 20px;
       font-weight: 200;
       border-left: 1px solid #D1E2FF;
-    }
+}
+
+
