@@ -3,15 +3,16 @@ html {
 	margin: 0px;	
 	width: 100%;
 	height: 100%;
-	font-family: sans-serif;
+	font-family:'Roboto';
+	background: rgba(73,155,234,1);
 }
 
 .inbox {
 	max-width: 400px;
 	margin: 50px auto;
 	background: white;
-	border-radius: 5px;
-	box-shadow: 10px 10px 0 rgba(0,0,0,0.1);
+	border-radius: 10px;
+	box-shadow: 5px 5px 0 rgba(0,0,0,0.1);
 }
 
 .item {
@@ -24,12 +25,22 @@ input {
 	margin: 20px;
 }
 
-p {
+.head {
+	background: #ff3030;
+	text-transform: uppercase;
+	border-radius: 10px;
+	color: white;
+	padding: .5px;
+	font-size: 1.3rem;
+	padding-left: 20px;	
+	
+}
+
+.item > p {	
       margin: 0;
       padding: 20px;
       transition: background 0.2s;
       flex: 1;
-      font-family:'helvetica neue';
       font-size: 20px;
       font-weight: 200;
       border-left: 1px solid #D1E2FF;
